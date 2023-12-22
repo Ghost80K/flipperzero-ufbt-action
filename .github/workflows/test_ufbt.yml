@@ -1,4 +1,4 @@
-name: Testsuite
+name: Run tests for ufbt action
 
 on: 
   workflow_call:
@@ -22,10 +22,10 @@ on:
 jobs:
   test-ufbt-action:
     runs-on: ubuntu-latest
-    name: Test action
+    name: Test ufbt action
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: admin
+      
 
       - name: Setup ufbt
         uses: ./ # Uses an action in the root directory
